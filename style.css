@@ -28,6 +28,26 @@ a,
 
 /* DESKTOP NAV */
 
+#theme-toggle {
+  background: none;
+  border: none;
+  font-size: 1.5rem;
+  cursor: pointer;
+  margin-left: 10px;
+}
+
+/* Dark Mode Styles */
+.dark-mode {
+  background-color: #121212;
+  color: #ffffff;
+}
+
+.dark-mode nav,
+.dark-mode footer {
+  background-color: #1e1e1e;
+}
+
+
 nav,
 .nav-links {
   display: flex;
